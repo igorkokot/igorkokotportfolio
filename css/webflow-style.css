@@ -2090,9 +2090,10 @@ textarea.w-input, textarea.w-select {
   font-size: 42px;
   font-weight: 700;
   position: relative;
+  left: 100px;
 }
 
-.nav-link {
+.nav-link2 {
   color: #000;
   letter-spacing: 0;
   border: .1px solid #000;
@@ -2103,6 +2104,12 @@ textarea.w-input, textarea.w-select {
   font-size: 18px;
   font-weight: 300;
   box-shadow: 8px 10px 8px -3px #0003;
+}
+
+.nav-link2.navlink3 {
+  color: #fff;
+  background-color: #000;
+  box-shadow: 0 0 10px 5px #0003;
 }
 
 .navbar {
@@ -2118,6 +2125,7 @@ textarea.w-input, textarea.w-select {
 
 .year-heading {
   color: #fff;
+  margin-bottom: 20px;
   font-size: 42px;
 }
 
@@ -2125,16 +2133,20 @@ textarea.w-input, textarea.w-select {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   flex-flow: column;
+  width: 320px;
   display: flex;
 }
 
 .project-description {
   color: #fff;
+  margin-bottom: -1px;
   font-size: 16px;
 }
 
 .project-title {
   color: #fff;
+  margin-top: 0;
+  margin-bottom: 10px;
   font-size: 28px;
 }
 
@@ -2146,20 +2158,37 @@ textarea.w-input, textarea.w-select {
   grid-auto-columns: 1fr;
   grid-auto-flow: row;
   place-items: center;
+  max-width: 740px;
   margin-top: 50px;
   display: grid;
 }
 
 .button {
-  margin-top: 20px;
+  background-color: #ce1f1f;
+  margin-top: 15px;
   margin-bottom: 20px;
   display: block;
+}
+
+.div-block {
+  margin-top: 30px;
+}
+
+.nag-wek {
+  color: #fff;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 479px) {
   .text-block {
     padding-left: 20px;
     padding-right: 20px;
+    left: auto;
+  }
+
+  .year-container {
+    padding-left: 10px;
+    padding-right: 16px;
   }
 }
 
