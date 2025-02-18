@@ -2081,14 +2081,22 @@ textarea.w-input, textarea.w-select {
 
 .text-block {
   float: left;
+  direction: ltr;
+  text-align: left;
   letter-spacing: 1px;
+  text-transform: none;
+  white-space: normal;
+  word-break: normal;
   min-height: 60px;
   margin-top: 0;
   margin-bottom: -1px;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: Futura PT Light, sans-serif;
   font-size: 42px;
-  font-weight: 700;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
   position: relative;
   left: 100px;
 }
@@ -2097,7 +2105,7 @@ textarea.w-input, textarea.w-select {
   color: #000;
   letter-spacing: 0;
   border: .1px solid #000;
-  border-radius: 5px;
+  border-radius: 0;
   margin: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -2107,9 +2115,14 @@ textarea.w-input, textarea.w-select {
 }
 
 .nav-link2.navlink3 {
-  color: #fff;
-  background-color: #000;
-  box-shadow: 0 0 10px 5px #0003;
+  box-shadow: none;
+  color: #000;
+  background-color: #fff;
+  border-style: none;
+  border-width: .1px;
+  border-radius: 0;
+  font-size: 16px;
+  right: 100px;
 }
 
 .navbar {
@@ -2125,7 +2138,8 @@ textarea.w-input, textarea.w-select {
 
 .year-heading {
   color: #fff;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 0;
   font-size: 42px;
 }
 
@@ -2133,7 +2147,7 @@ textarea.w-input, textarea.w-select {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   flex-flow: column;
-  width: 320px;
+  width: 340px;
   display: flex;
 }
 
@@ -2150,23 +2164,36 @@ textarea.w-input, textarea.w-select {
   font-size: 28px;
 }
 
+.project-title.project-title-2 {
+  color: #000;
+}
+
 .year-container {
   grid-column-gap: 50px;
   grid-row-gap: 50px;
+  background-color: #000;
   grid-template: "Area"
   / 1fr 1fr;
   grid-auto-columns: 1fr;
   grid-auto-flow: row;
   place-items: center;
   max-width: 740px;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-left: auto;
   display: grid;
 }
 
+.year-container.year-container-2 {
+  background-color: #0000;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
 .button {
+  color: #000;
   background-color: #ce1f1f;
   margin-top: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   display: block;
 }
 
@@ -2177,6 +2204,35 @@ textarea.w-input, textarea.w-select {
 .nag-wek {
   color: #fff;
   margin-bottom: 0;
+}
+
+.field-label, .field-label-2 {
+  color: #000;
+}
+
+.form {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  vertical-align: bottom;
+  border: 1px #000;
+  border-radius: 12px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  width: 320px;
+  margin: 10px;
+  text-decoration: none;
+  display: block;
+  position: static;
+}
+
+.form-block {
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.text-field {
+  height: auto;
 }
 
 @media screen and (max-width: 479px) {
@@ -2192,7 +2248,21 @@ textarea.w-input, textarea.w-select {
   }
 }
 
-#w-node-_71981c1f-ea49-e0d5-0532-968a7920de2e-d88da403, #w-node-af5da179-5e93-da44-70dc-bed48b33a848-d88da403, #w-node-_16181180-c807-492f-fd2f-1feba29daf81-d88da403 {
+#w-node-_71981c1f-ea49-e0d5-0532-968a7920de2e-d88da403 {
+  grid-area: Area;
+  place-self: start;
+}
+
+#w-node-d52014b6-b6e2-ea23-9d01-02473ba911b6-d88da403 {
+  grid-area: Area;
+  justify-self: start;
+}
+
+#w-node-_599f25d9-7631-bbdf-9298-841d063772ac-d88da403 {
+  grid-area: Area;
+}
+
+#w-node-af5da179-5e93-da44-70dc-bed48b33a848-d88da403, #w-node-_16181180-c807-492f-fd2f-1feba29daf81-d88da403 {
   grid-area: Area;
   place-self: start;
 }
