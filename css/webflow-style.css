@@ -2184,6 +2184,11 @@ textarea.w-input, textarea.w-select {
   color: #000;
 }
 
+.project-title.client {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
 .year-container {
   grid-column-gap: 50px;
   grid-row-gap: 50px;
@@ -2210,8 +2215,10 @@ textarea.w-input, textarea.w-select {
 
 .button {
   color: #fff;
-  background-color: #6d6d6d;
+  background-color: #444;
   border-radius: 3px;
+  flex-flow: row;
+  flex: 0 auto;
   margin-top: 15px;
   margin-bottom: 0;
   display: block;
@@ -2552,7 +2559,7 @@ textarea.w-input, textarea.w-select {
   grid-area: Area;
 }
 
-#w-node-_71981c1f-ea49-e0d5-0532-968a7920de2e-d88da403 {
+#w-node-_71981c1f-ea49-e0d5-0532-968a7920de2e-d88da403, #w-node-af5da179-5e93-da44-70dc-bed48b33a848-d88da403 {
   grid-area: Area;
   place-self: start;
 }
@@ -2566,7 +2573,7 @@ textarea.w-input, textarea.w-select {
   grid-area: Area;
 }
 
-#w-node-af5da179-5e93-da44-70dc-bed48b33a848-d88da403, #w-node-_16181180-c807-492f-fd2f-1feba29daf81-d88da403, #w-node-c6c48ba4-0c39-a786-7c23-778ae0855a91-d88da403, #w-node-_3d7ff45a-7559-5e64-7955-3e74ef441339-d88da403, #w-node-_68e3445f-9264-c8cf-de0e-3dac8dbdaea4-d88da403 {
+#w-node-_16181180-c807-492f-fd2f-1feba29daf81-d88da403, #w-node-c6c48ba4-0c39-a786-7c23-778ae0855a91-d88da403, #w-node-_3d7ff45a-7559-5e64-7955-3e74ef441339-d88da403, #w-node-_68e3445f-9264-c8cf-de0e-3dac8dbdaea4-d88da403, #w-node-da46c52b-6bea-0945-f6c7-e1c78392a9b3-d88da403 {
   grid-area: Area;
   place-self: start;
 }
